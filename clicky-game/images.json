@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "name": "Martin",
+        "show": "Martin",
+        "image": "./images/martin.png"
+},
+{
+        "id": 2,
+        "name": "Gina",
+        "show": "Martin",
+        "image": "./images/Gina.jpg"   
+
+},
+{
+        "id": 3,
+        "name": "Pam",
+        "show": "Martin",
+        "image": "./images/Pam.jpg"
+},
+{
+        "id": 4,
+        "name": "Tommy",
+        "show": "Martin",
+        "image": "./images/tommy.jpg"
+},
+{
+        "id": 5,
+        "name": "Cole",
+        "show": "Martin",
+        "image": "./images/cole.jpg"
+},
+{
+        "id": 6,
+        "name": "Bruh Man",
+        "show": "Martin",
+        "image": "./images/fifth floor.png"
+},
+
+{
+        "id": 7,
+        "name": "Khadijah",
+        "show": "Living Single",
+        "image": "./images/queen.jpg"
+},
+{
+        "id": 8,
+        "name": "Sinclair",
+        "show": "Living Single",
+        "image": "./images/sinclair.jpg"
+},
+{
+        "id": 9,
+        "name": "Maxine",
+        "show": "Living Single",
+        "image": "./images/maxie.jpg"
+},
+{
+        "id": 10,
+        "name": "Kyle",
+        "show": "Living Single",
+        "image": "./images/kyle.jpg"
+},
+{
+        "id": 11,
+        "name": "Overton",
+        "show": "Living Single",
+        "image": "./images/queen.jpg"
+},
+{
+        "id": 12,
+        "name": "Regine",
+        "show": "Living Single",
+        "image": "./images/regine.png"
+}
+    ]

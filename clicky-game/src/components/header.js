@@ -7,10 +7,10 @@ const Header = props =>
                 <h1>Clicky Game</h1>
             </div>
             <div className="col-lg-4">
-                <h1>{props.click === "" ? "Click an image to begin!" : props.click === "true" ? "You guessed correctly!" : "You guessed incorrectly!"}</h1>
+                <h1>{props.correct === "" ? "Click an image to begin!" : props.correct === "true" ? "You guessed correctly!" : "You guessed incorrectly!"}</h1>
             </div>
             <div className="col-lg-4">
-                <h1>Score:{props.score} | Top Score:{props.topScore}</h1>
+                <h1>Score:{props.correct} | Top Score:{props.topScore}</h1>
             </div>
         </div>
     </div>

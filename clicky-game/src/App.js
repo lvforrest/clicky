@@ -22,7 +22,7 @@ import fifthFloor from "./images/fifthFloor.png";
 class App extends Component {
 
   state = {
-    images:[],
+    choice:[],
     topScore: 0,
     correct: 0,
   };
@@ -40,27 +40,20 @@ class App extends Component {
     return imgArray
   }
 
-  pickImg = (name) => {
-    console.log("Clicked!!");
-    let picked = this.state.picked;
+  // pick = (name) => {
+  //   let choice = this.state.choice;
     
-    if (picked.indexOf(name) === -1) {
-      this.setState({
-        picked: picked.concat(name),
-        correct: this.state.correct + 1,
-        topscore: this.state.correct + 1 > this.state.topscore ? this.state.correct + 1 : this.state.topscore,
-        message: "Correct: Good choice!" 
-      })
-      this.shuffleArray();
-    }
-    else {
-      this.setState({
-        message: "Incorrect: Play again?",
-        correct: 0,
-        picked: []
-      })
-    }
-  }
+  //   if (choice.indexOf(name) === -1) {
+  //     this.setState({
+  //       choice: choice.concat(name),
+  //       correct: this.state.correct + 1,
+  //       topScore: this.state.correct + 1 > this.state.topScore ? this.state.correct + 1 : this.state.topScore,
+        
+  //     })
+  //     this.shuffleArray();
+  //   }
+  
+  // }
 
  Switch = (name) => {
     switch (name) {
@@ -97,17 +90,17 @@ class App extends Component {
 
   render() {
     return (
-      <Header>
-      <h1> Clicky Game </h1>
-      <Banner correct={this.state.correct} topscore={this.state.topscore} message={this.state.message}/>
+      <div>
+      <Header />
+      <Banner correct={this.state.correct} topScore={this.state.topScore}/>
       <Main>
-      {this.state.map(images =>(
-        <Image src={this.Switch(images.name)} name={images.name} key={images.name} pickImg={this.pickImg} />
+          {this.shuffleArray(Image).map(images =>(
+        <Image src={this.Switch(Image.name)} name={Image.name} key={Image.name} pick={this.pick} />
       ))}
       </Main>
-      <Footer>
-      </Footer>
-      </Header>
+      <Footer />
+      
+      </div>
     );
   }
 }

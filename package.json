@@ -1,0 +1,25 @@
+{
+  "name": "clicky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "npm": "^6.1.0",
+    "react": "^16.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvforrest/clicky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvforrest/clicky/issues"
+  },
+  "homepage": "https://github.com/lvforrest/clicky#readme"
+}

@@ -2,6 +2,7 @@
   "name": "clicky",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lvforrest.github.io/clicky",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
